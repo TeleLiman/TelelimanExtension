@@ -5,9 +5,9 @@ Uygulama LimanMYS kullanıcılarının telefon üzerinden hızlı bir şekilde d
 Sistem yöneticilerinin işlerini kolaylaştırmak amacıyla yazılmıştır. 
 
 **Uygulama:**
-1.     Önceden eklentinin eklediği servislerde update, reboot, shutdown methodlarının uygulama üzerinde çalışması
-2.     Eklenmiş olan servislerin start, stop ve status işlemlerinin yapılmasını sağlaması
-3.     Herhangi bir çökme durumunda sorunun anında Sistem Yöneticisine bildirilmesi
+1. Önceden eklentinin eklediği servislerde update, reboot, shutdown methodlarının uygulama üzerinde çalışması
+2. Eklenmiş olan servislerin start, stop ve status işlemlerinin yapılmasını sağlaması
+3. Herhangi bir çökme durumunda sorunun anında Sistem Yöneticisine bildirilmesi
 **Odaklanılmıştır.**
 
 **Geliştirici Notu**
@@ -18,17 +18,17 @@ Kullanılan sistemlerin telefon erişimi sayesinde hızlıca görüntülenebilme
 
 **Örnek vermemiz gerekirse:**
 
-1.  Uygulama bir helper sayesinde kullanıcıdan gelen istekler doğrultusunda betikler çalıştırır. Betiklerin oluşturulabilmesi ve bot üzerine eklenebilmesi oldukça basittir.
-2.  Telegram üzerinden çıkış sağlandığından dolayı uygulama üzerine gönderilebilecek istekler başka bir güvenlik üzerinden daha geçer bu sayede uygulamaya ekstra güvenlik sağlar. (Güvenlik konusuna "Geliştiriciler için" kısmında daha detaylı değinilecektir.)
-3.  Sunucuların bakımların kişilere TeleLiman uygulaması üzerinden rahatlıkla dağıtılabilmesini sağlar.
+1. Uygulama bir helper sayesinde kullanıcıdan gelen istekler doğrultusunda betikler çalıştırır. Betiklerin oluşturulabilmesi ve bot üzerine eklenebilmesi oldukça basittir.
+2. Telegram üzerinden çıkış sağlandığından dolayı uygulama üzerine gönderilebilecek istekler başka bir güvenlik üzerinden daha geçer bu sayede uygulamaya ekstra güvenlik sağlar. (Güvenlik konusuna "Geliştiriciler için" kısmında daha detaylı değinilecektir.)
+3. Sunucuların bakımların kişilere TeleLiman uygulaması üzerinden rahatlıkla dağıtılabilmesini sağlar.
 
 # Kurulum
 Bu kısımda eklentinin nasıl doğru bir şekilde yapılandırılıp kurulabileceğine ayrıntılı şekilde girilecektir.
 ## Telegram Botunun oluşturulması
-1.  Telegram üzerinden '@BotFather' botu bulunur. Bu bota /start komutu verilerek bot kullanılmaya başlanır.
-2.  /newbot komutu kullanılır. İlk aşamada bota bir isim verilir. Bu isim kullanıcı adı değil botun ismidir.
-3.  Sonrasında bota benzersiz bir kullanıcı adı seçilmelidir. Bota seçilen kullanıcı adı '*Bot' veya '*_bot' yapısına uygun olarak belirlenmelidir. Örneğin 'test123a_bot' 'test123aBot' gibi...
-4.  Sonrasında @BotFather bize http API token'ımızı verir. Bu token uygulamanın diğer aşamalarında bize yardımcı olacaktır bu yüzden not almanız önerilir.
+1. Telegram üzerinden '@BotFather' botu bulunur. Bu bota /start komutu verilerek bot kullanılmaya başlanır.
+2. /newbot komutu kullanılır. İlk aşamada bota bir isim verilir. Bu isim kullanıcı adı değil botun ismidir.
+3. Sonrasında bota benzersiz bir kullanıcı adı seçilmelidir. Bota seçilen kullanıcı adı '*Bot' veya '*_bot' yapısına uygun olarak belirlenmelidir. Örneğin 'test123a_bot' 'test123aBot' gibi...
+4. Sonrasında @BotFather bize http API token'ımızı verir. Bu token uygulamanın diğer aşamalarında bize yardımcı olacaktır bu yüzden not almanız önerilir.
 
 ## Otomatik kurulum
 1.  [install.sh](https://teleliman.github.io/download/install.sh "install.sh") dosyası sunucu üzerine indirilir ve çalıştırılır.
