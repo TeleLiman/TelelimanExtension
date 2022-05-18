@@ -119,3 +119,4 @@ Bu uygulama Havelsan Express Liman MYS Fikir Yarışması süresince geliştiril
 **5.     Whitelist İp Bloğuna Ekleme:** İstenirse sisteme yanlızca belirli iplerden giriş sağlanabilir. Eğer yeni bir ip adresi eklenecekse bu işlem TeleLiman üzerinde yürütülebilir.
 
 **6.     Pardus Liman Edition:** Liman kurulu sunucularda başka hiçbir işlem yapılmayacağı varsayıldığından limanın yüklü olarak geldiği bir .iso paketi hazırlanabilir.
+
