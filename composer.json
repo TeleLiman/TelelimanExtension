@@ -1,0 +1,23 @@
+{
+	"name": "limanmys/TeleLiman",
+	"description": "TeleLiman",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Deniz",
+			"email": "info@denizbektas.com.tr"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"files": [
+			"app/Helpers/Helpers.php"
+		],
+		"psr-4": {
+			"App\\": "app"
+		},
+		"classmap": [
+			"app"
+		]
+	}
+}

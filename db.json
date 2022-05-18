@@ -1,0 +1,44 @@
+{
+    "name": "TeleLiman",
+    "publisher": "Deniz",
+    "version": "0.0.1",
+    "version_code": 11,
+    "database": [
+        {
+            "variable": "telegram_token",
+            "type": "text",
+            "name": "Telegram Bot Token",
+            "required": true,
+            "global": true,
+            "writable": true
+        },
+        {
+            "variable": "chat_id",
+            "type": "text",
+            "name": "Kullan\u0131c\u0131 Ad\u0131 veya Chat \u0130d",
+            "required": true,
+            "global": false,
+            "writable": true
+        },
+        {
+            "variable": "rootpassword",
+            "type": "password",
+            "name": "Root Parolas\u0131",
+            "required": true,
+            "global": true,
+            "writable": true
+        }
+    ],
+    "widgets": [],
+    "language": "php",
+    "status": 0,
+    "service": "22",
+    "supportedLiman": "1.9",
+    "support": "info@denizbektas.com.tr",
+    "icon": "nav-icon fas fa-fa-solid fa-lock",
+    "display_name": "TeleLiman",
+    "require_key": "false",
+    "verification": null,
+    "dependencies": null,
+    "sslPorts": null
+}
