@@ -1,6 +1,6 @@
 
 # TeleLiman
-Uygulama LimanMYS kullanıcılarının telefon üzerinden hızlı bir şekilde daha öncesinde yapılandırılmış serverlarına hızlı ve basit bir erişim sağlayan PHP ve Python ile yazılmış bir eklentidir.
+Uygulama Liman MYS kullanıcılarının telefon üzerinden hızlı bir şekilde daha öncesinde yapılandırılmış serverlarına hızlı ve basit bir erişim sağlayan PHP ve Python ile yazılmış bir eklentidir.
 ## Bu uygulama nelere yardımcı olur?
 Sistem yöneticilerinin işlerini kolaylaştırmak amacıyla yazılmıştır. 
 
